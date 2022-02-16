@@ -1,6 +1,7 @@
 
 
 import Foundation
+import Alamofire
 import AlamofireImage
 import struct PopcornKit.Episode
 
