@@ -18,6 +18,8 @@ end
 target 'PopcornTimeiOS' do
     platform :ios, '11.0'
     pods
+    pod 'Alamofire', '~> 4.9.0'
+    pod 'AlamofireImage', '~> 3.5.0' 
     pod 'AlamofireNetworkActivityIndicator', '~> 2.4.0'
     pod 'google-cast-sdk', '~> 4.4'
     pod 'OBSlider', '~> 1.1.1'
