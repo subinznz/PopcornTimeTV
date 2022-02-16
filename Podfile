@@ -67,6 +67,7 @@ post_install do |installer|
             config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
             config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
             config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+            config.build_settings["ONLY_ACTIVE_ARCH"] = "YES"
         end
         if ['FloatRatingView-iOS', 'FloatRatingView-tvOS'].include? target.name
             target.build_configurations.each do |config|
